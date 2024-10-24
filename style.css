@@ -1,0 +1,393 @@
+*{
+    font-family: Arial;
+    border: border-box
+    ;
+}
+.conatiner{
+    background-image:url(Forest-Research-Institute-Dehradun.jpg) ;
+    width: 100%;
+    height: 820px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.navbar{
+    width: 1505px;
+    height: 162px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+   
+    margin-top: 100p;
+}
+   
+.left-nav{
+    background-image: url(logo.jpeg);
+    width: 110px;
+    height: 111px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    font-size: 20px;
+   
+    margin-top: 140px;
+}
+.right-nav ul{
+width: 877px;
+height: 42px;
+display: flex;
+justify-content: space-evenly;
+margin-top: 200px;
+list-style: none;
+
+font-size: 16px;
+background-color: #000 transparent;
+color:white;
+}
+.home-page{
+    height: 92px;
+    width:  1300px;
+    
+    
+    margin-top: 360px;
+     text-align: center;
+     margin-left: 38px;
+}
+.home-page h2{
+    color: rgb(232, 218, 218);
+    font-size:62px ;
+}
+.home-page p{
+    width: 1400px;
+    height: 64px;
+    font-size: 14px;
+    color: white;
+}
+.home-page button{
+    width: 206px;
+    height: 45px;
+    background-color: #ffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+/* box2*/
+.main-page {
+    width: 1120px;
+    height: 54px;
+
+    
+}
+.main-page h2{
+    font-size: 36px;
+    margin-left: -50%;
+}
+.main-page p{
+    font-size: 14px;
+    color: #7777;
+    margin-left: 20px;
+}
+/*box3*/
+.box-shop{
+    width: 1500px;
+    height: 870px;
+    font-size: 16px;
+   margin-top: 120px;
+   display: flex;
+   justify-content: space-evenly;
+
+}
+.box-heading{
+    width: 347px;
+    height: 860px;
+    font-size: 16px;
+    background-color: #fff3f3;
+    color: #000;
+    
+    
+    border-radius: 5px;
+    margin-top: 30px;
+    
+    
+}
+.box-heading h2{
+    width: 323px;
+    height: 30px;
+    color: #000;
+    font-size: 18px;
+    margin-top: 30px;
+  text-align: center;
+
+   
+}
+.box-heading p{
+width: 323px;
+height: 614px;
+font-size: 17px;
+padding: 10px;
+color: #777;
+}
+/*box4*/
+.campus-shop{
+    width: 897px;
+    height: 480px;
+    
+    padding: 50px ;
+   
+    
+}
+.campus-shop h1{
+    font-size: 36px;
+    margin-left: 65%;
+    margin-top: 10%
+}
+.campus-shop p{
+    width: 897px;
+    height: 86px;
+    color: #777;
+    font-size: 15px;
+    padding: 10px;
+   margin-left: 30%;
+  
+}
+.campus-photo{
+    width: 897px;
+    height: 300px;
+   
+    display: flex;
+    justify-content: space-evenly;
+   
+    margin-left: 28%;
+   
+    gap: 40px;
+    margin-top: -10px;
+    
+    
+   
+}
+.campus-img{
+    width: 287px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+/*box5*/
+.fact-shop {
+    width: 897px;
+    height: 54px;
+   margin-left: 20%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.fact-shop p {
+    width: 897px;
+    height: 64px;
+    font-size: 16px;
+    margin-left: 10%;
+}
+.row{
+    width: 900px;
+    height: 465px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-left: 20%;
+    gap: 30px   ;
+}
+.row-img{
+    width: 278px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.row-img h3{
+    margin-top: 100%;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.row-img p{
+    font-size: 14px;
+    color: #777;
+}
+
+/*box6*/
+
+.student-shop{
+    width: 897px;
+    height: 54px;
+   margin-left: 20%;
+    margin-top: 10%;
+    font-size: 30px;   
+}
+.student-shop p{
+    width: 897px;
+    height: 64px;
+    font-size: 16px;
+    margin-left: 5%;
+}   
+.box{
+    width: 900px;
+    height: 465px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-left: 20%;
+    gap: 20%;
+    background-color: #fff3f3;
+    border-radius: 5px;
+} 
+.box-img{
+    width: 278px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 120%;
+    margin-top: 20px;
+    
+    
+}
+.box-img p{
+    margin-top: 79%;
+    color: #777;
+    font-size:14px ;
+}
+/*box7*/
+.footer{
+    width: 1122px;
+    height: 37px;
+    color: #000;
+    
+    
+}
+.footer h2{
+   font-size: 24px;
+   margin-left: 35%;
+   margin-top: 5%;
+}
+
+form-div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    width: 48%;
+}
+
+label {
+    margin: 10px 0 5px;
+    display: block;
+}
+
+input, select {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/*box8*/
+.footer-heading{
+    width: 1122px;
+    height: 36px;
+   
+}
+.footer-heading h2{
+    font-size: 34px;
+}
+ul li{
+    list-style: none;
+}
+/*box9*/
+.enoll-heading{
+width: 900px;
+height: 200px;
+margin-top: 20%;
+background-color: #777;
+
+color: white;
+margin-left: 20%;
+border-radius: 10px;
+
+}
+.enoll-heading h1{
+text-align: center;
+margin-left: 10px;
+
+
+
+}
+.enoll-heading button{
+    width: 151px;
+    height: 45px;
+    font-size: 13px;
+    padding: 12px, 34px;
+    margin-left: 40%;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+.heading-last h3{
+    width: 1122px;
+    height: 24px;
+    font-size: 16px;
+    margin: 20px 0px 25px;
+}
+.heading-last p{
+    width: 1122px;
+    height: 42px;
+    color: #777;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 20%;
+}
