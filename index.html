@@ -13,11 +13,11 @@
             <div class="left-nav"></div>
             <div class="right-nav">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Cource</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#" id="about-link">About</a></li>
+                <li><a href="#" id="cource-link">Cource</a></li>
+                <li><a href="#" id="blog-link">Blog</a></li>
+                <li><a href="#" id="contact-link">Contact</a></li>
                 </ul>
             </div>
             
@@ -121,65 +121,63 @@
     <h2>Interested candidate can fill form for more query</h2>
 </div>
 <div class="form-div">
-    <form action="/submit" method="post" enctype="multipart/form-data">
-        <div class="form-row">
-            <div class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name" required>
-            </div>
-            <div class="form-group">
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name" required>
-            </div>
+    <form action="https://formsubmit.co/hchhillar8@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Student Detail Submission from FRI Website">
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name" required>
         </div>
-
-        <div class="form-row">
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="Enter your Number" required>
-            </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name" required>
         </div>
-
-        <div class="form-row">
-            <div class="form-group">
-                <label for="program">Program of Interest:</label>
-                <select id="program" name="program" required>
-                    <option value="" disabled selected>Set of Program</option>
-                    <option value="B.S.C forestly">B.S.C forestly</option>
-                    <option value="M.S.C forestly">M.S.C forestly</option>
-                    <option value="P.H.D forestly">P.H.D forestly</option>
-                    
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="qualification">Qualification:</label>
-                <input type="text" id="qualification" name="qualification" placeholder="Enter your Qualification" required>
-            </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your Email" required>
         </div>
-
-        <div class="form-row">
-            <div class="form-group">
-                <label for="percentage">Percentage/CGPA:</label>
-                <input type="text" id="percentage" name="percentage" placeholder="Enter your Percentage/CGPA" required>
-            </div>
-            <div class="form-group">
-                <label for="document">Upload Document (CV, Certificates):</label>
-                <input type="file" id="document" name="document" accept=".pdf,.doc,.docx,.png,.jpg" required>
-            </div>
+        <div class="form-group">
+          <label for="phone">Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your Number" required>
         </div>
-
-        <input type="submit" value="Submit">
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="program">Program of Interest:</label>
+          <select id="program" name="program" required>
+            <option value="" disabled selected>Set of Program</option>
+            <option value="B.S.C forestly">B.S.C forestly</option>
+            <option value="M.S.C forestly">M.S.C forestly</option>
+            <option value="P.H.D forestly">P.H.D forestly</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="qualification">Qualification:</label>
+          <input type="text" id="qualification" name="qualification" placeholder="Enter your Qualification" required>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="percentage">Percentage/CGPA:</label>
+          <input type="text" id="percentage" name="percentage" placeholder="Enter your Percentage/CGPA" required>
+        </div>
+        <div class="form-group">
+          <label for="document">Upload Document (CV, Certificates):</label>
+          <input type="file" id="document" name="document" accept=".pdf,.doc,.docx,.png,.jpg" required>
+        </div>
+      </div>
+  
+      <input type="submit" value="Submit">
     </form>
-   
-    
-
-
-</div>
-
+  </div>
+  
 <div class="footer-heading">
     <h2>Admission Procedure at FRI Dehradun:</h2>
     <ul>
@@ -206,7 +204,8 @@
         <p>The Forest Research Institute in Dehradun stands tall, a sanctuary of knowledge where trees whisper secrets and science meets nature's call.</p>
 </div>
 
-   
+<script src="script.js"></script>
+ 
     
 </body>
 </html>
