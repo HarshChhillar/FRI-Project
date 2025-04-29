@@ -1,73 +1,70 @@
-* {
+*{
     font-family: Arial;
-    border: border-box;
+    border: border-box
+    ;
 }
-
-/* Container */
-.conatiner {
-    background-image: url(Forest-Research-Institute-Dehradun.jpg);
+.conatiner{
+    background-image:url(Forest-Research-Institute-Dehradun.jpg) ;
     width: 100%;
     height: 820px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* Header */
-header {
+header{
     width: 100%;
     height: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
-
-.navbar {
-    width: 100%;
+.navbar{
+    width: 1505px;
     height: 162px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 16px;
-    margin-top: 100px;
-    padding: 0 20px;
+   
+    margin-top: 100p;
 }
-
-/* Left Navigation */
-.left-nav {
+   
+.left-nav{
     background-image: url(logo.jpeg);
     width: 110px;
     height: 111px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+    font-size: 20px;
+   
+    margin-top: 140px;
 }
+.right-nav ul{
+width: 877px;
+height: 42px;
+display: flex;
+justify-content: space-evenly;
+margin-top: 200px;
+list-style: none;
 
-/* Right Navigation */
-.right-nav ul {
-    width: auto;
-    height: 42px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    list-style: none;
-    font-size: 16px;
-    background-color: #000 transparent;
-    color: white;
+font-size: 16px;
+background-color: #000 transparent;
+color:white;
 }
-
-/* Home Page */
+/* Assuming .home-page is the div you want to center */
 .home-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 100vh;
-    padding: 0 20px;
+    text-align: center;  /* Centers the text inside */
+    height: 100vh;  /* Makes the div take the full viewport height */
+    padding: 0 20px;  /* Optional: Add some padding if needed */
 }
 
-.home-page h2 {
+h2 {
     font-size: 2.5rem;
-    color: #fff;
+    color: #fff;  /* Adjust the color */
     margin-bottom: 1rem;
 }
 
@@ -75,18 +72,19 @@ header {
     font-size: 1.2rem;
     color: #fff;
     margin-bottom: 1.5rem;
-    white-space: pre-line;
-    line-height: 1.6;
-    max-width: 700px;
-    margin: 0 auto;
+    white-space: pre-line; /* Allows the text to break into multiple lines based on the content */
+    line-height: 1.6; /* Adds space between lines */
+    text-align: center; /* Centers the text */
+    max-width: 700px;  /* Optional: Limit the width to ensure text breaks properly */
+    margin: 0 auto;  /* Centers the paragraph horizontally */
 }
 
-/* Button */
+
 button {
     margin-top: 30px;
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #6200ea;
+    background-color: #6200ea;  /* Adjust the button color */
     color: #fff;
     border: none;
     cursor: pointer;
@@ -95,232 +93,344 @@ button {
 }
 
 button:hover {
-    background-color: #3700b3;
+    background-color: #3700b3;  /* Adjust the hover color */
 }
 
-/* Main Page */
+/* box2*/
 .main-page {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: column; /* Stack contents inside the main-page */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    text-align: center; /* Ensure text is centered */
     padding: 20px;
+   
     margin: 20px;
     border-radius: 8px;
 }
-
-.main-page h2 {
+.main-page h2{
     font-size: 36px;
-    color: black;
-    text-align: center;
+     color: black;
+    text-align:  center ;
 }
-
-.main-page p {
+.main-page p{
     font-size: 20px;
     color: #7777;
     margin-left: 20px;
 }
+/*box3*/
+.box-shop{
+    width: 1500px;
+    height: 870px;
+    font-size: 16px;
+   margin-top: 120px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-left: 200px;
 
-/* Box Shop */
-.box-shop {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 120px;
-    flex-wrap: wrap;
 }
-
-/* Box Heading */
-.box-heading {
-    width: 300px;
-    height: auto;
+.box-heading{
+    width: 347px;
+    height: 860px;
     font-size: 16px;
     background-color: #fff3f3;
     color: #000;
+    
+    
     border-radius: 5px;
     margin-top: 30px;
-    padding: 20px;
+    
+    
 }
-
-.box-heading h2 {
-    font-size: 25px;
+.box-heading h2{
+    width: 323px;
+    height: 30px;
     color: #000;
+    font-size: 25px;
     margin-top: 30px;
-    text-align: center;
-}
+  text-align: center;
 
-.box-heading p {
+   
+}
+.box-heading p{
+width: 323px;
+height: 614px;
+font-size: 20px;
+padding: 10px;
+color: #777;
+}
+/*box4*/
+.campus-shop{
+    width: 900px;
+    height: 480px;
+    margin-top: 20px;
+    padding: 50px ;
+   
+    
+}
+.campus-shop h1{
+    font-size: 36px;
+    margin-left: 75%;
+    margin-top: 10%;
+    align-items: center;
+}
+.campus-shop p{
+    width: 897px;
+    height: 86px;
+    color: #777;
     font-size: 20px;
     padding: 10px;
+   margin-left: 40%;
+  
+}
+.campus-photo{
+    width: 897px;
+    height: 300px;
+   
+    display: flex;
+    justify-content: space-evenly;
+   
+    margin-left: 40%;
+   
+    gap: 40px;
+    margin-top: -10px;
+    
+    
+   
+}
+.campus-img{
+    width: 287px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+/*box5*/
+.fact-shop {
+    width: 897px;
+    height: 54px;
+   margin-left: 20%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.fact-shop h2{
+    font-size: 36px;
+    color: black;
+}
+.fact-shop p {
+    width: 897px;
+    height: 64px;
+    color: #777;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.row{
+    width: 900px;
+    height: 465px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-left: 25%;
+    gap: 30px   ;
+}
+.row-img{
+    width: 278px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.row-img h3{
+    margin-top: 100%;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.row-img p{
+    font-size: 14px;
     color: #777;
 }
 
-/* Campus Shop */
-.campus-shop {
-    padding: 20px;
-    text-align: center;
-}
+/*box6*/
 
-.campus-photo {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+.student-shop{
+    width: 897px;
+    height: 54px;
+   margin-left: 20%;
+    margin-top: 10%;
+    font-size: 30px;   
 }
-
-.campus-img {
-    width: 300px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* Row */
-.row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.row-img {
-    width: 300px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-    text-align: center;
-    color: white;
-}
-
-/* Student Shop */
-.student-shop {
-    padding: 20px;
-    text-align: center;
-}
-
-/* Box */
-.box {
+.student-shop p{
+    width: 897px;
+    height: 64px;
+    font-size: 20px;
+    margin-left: 5%;
+    color: #777;
+}  
+.student-shop h2{ 
+    margin-bottom: 50px;
+    color: #000;
+} 
+.box{
+    width: 900px;
+    height: 575px;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 20%;
+    gap: 20%;
+    background-color: #fff3f3;
+    border-radius: 5px;
+} 
+.box h2{
+    color: #000;
 }
-
-.box-img {
-    width: 300px;
-    height: 250px;
+.box-img{
+    width: 278px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    border-radius: 120%;
+    margin-top: 20px;
+    
+    
+}
+.box-img p{
+    margin-top: 79%;
+    color: #777;
+    font-size:14px ;
+}
+/*box7*/
+.footer{
+    width: 1122px;
+    height: 37px;
+    color: #000;
+    
+    
+}
+.footer h2{
+   font-size: 24px;
+   margin-left: 35%;
+   margin-top: 5%;
+}
+
+form-div {
+    background-color: white;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.box-img h2 {
-    font-size: 20px;
-    color: white;
-}
-
-/* Footer */
-.footer,
-.footer-heading {
-    padding: 20px;
-    text-align: center;
-}
-
-/* Form */
-.form-div {
-    padding: 20px;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 .form-row {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .form-group {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 48%;
+}
+
+label {
+    margin: 10px 0 5px;
+    display: block;
 }
 
 input, select {
-    width: 100%;
     padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/*box8*/
+.footer-heading{
+    width: 1122px;
+    height: 36px;
+
+
+}
+.footer-heading h2{
+    color: #000;
+    margin-left: 100px;
+   
+}
+ul li{
+    margin-left: 180px;
+    list-style: none;
+    font-size: 20px;
+}
+/*box9*/
+.enoll-heading{
+width: 900px;
+height: 200px;
+margin-top: 20%;
+background-color: #777;
+
+color: white;
+margin-left: 20%;
+border-radius: 10px;
+
+}
+.enoll-heading h1{
+text-align: center;
+margin-left: 10px;
+
+
+
+}
+.enoll-heading button{
+    width: 151px;
+    height: 45px;
+    font-size: 13px;
+    padding: 12px, 34px;
+    margin-left: 40%;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+.heading-last h3{
+    width: 1122px;
+    height: 24px;
     font-size: 16px;
+    margin: 20px 0px 25px;
 }
-
-/* Media Queries for Responsiveness */
-
-/* For smaller screens (Tablets, Small Desktops) */
-@media (max-width: 1024px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .right-nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .box-shop {
-        flex-direction: column;
-    }
-
-    .box-heading {
-        width: 100%;
-    }
-
-    .row-img {
-        width: 100%;
-    }
-
-    .campus-img {
-        width: 100%;
-    }
-}
-
-/* For Mobile Screens */
-@media (max-width: 768px) {
-    .home-page h2 {
-        font-size: 2rem;
-    }
-
-    .home-page p {
-        font-size: 1rem;
-        max-width: 100%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
-    .box-shop {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .box-heading {
-        width: 100%;
-    }
-
-    .box-img, .row-img {
-        width: 100%;
-        height: 200px;
-    }
-
-    .form-row {
-        flex-direction: column;
-    }
-
-    .form-group {
-        width: 100%;
-    }
-
-    .footer, .footer-heading, .student-shop, .box, .campus-shop {
-        padding: 10px;
-    }
+.heading-last p{
+    width: 1122px;
+    height: 42px;
+    color: #777;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 20%;
 }
